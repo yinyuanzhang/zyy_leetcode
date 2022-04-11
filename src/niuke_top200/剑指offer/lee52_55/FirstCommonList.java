@@ -16,8 +16,8 @@ public class FirstCommonList {
         ListNode B = l2;
 
         while(A != B){
-            A = A.next == null ? l2 : A.next;
-            B = B.next == null ? l1 : B.next;
+            A = A == null ? l2 : A.next;
+            B = B == null ? l1 : B.next;
         }
         return A;
     }

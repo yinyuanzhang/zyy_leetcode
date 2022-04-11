@@ -21,6 +21,6 @@ public class CommonAstra {
         TreeNode right = commonAstra(root.right, p, q);
         if(left == null) return right;
         else if(right == null) return left;
-        else return left;
+        else return root;
     }
 }
