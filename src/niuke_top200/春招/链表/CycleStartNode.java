@@ -20,10 +20,11 @@ public class CycleStartNode {
         if(fast == null || fast.next == null) return null;
 
         fast = list;
-        while(fast == slow){
+        while(fast != slow){
             fast = fast.next;
             slow = slow.next;
         }
         return fast;
     }
 }
+

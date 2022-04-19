@@ -26,3 +26,7 @@ Arrays.toString(arr)
 
 9. 栈与队列
 注意对于deque和queue来说，peek和poll是通用的，但是offer应用于queue， push应用于deque。
+
+10.Integer 与 int
+Integer.valueof(i)
+i.intValue()
